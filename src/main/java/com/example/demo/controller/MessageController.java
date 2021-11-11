@@ -51,4 +51,5 @@ public class MessageController {
         template.convertAndSend(MessagingConfig.EXCHANGE, MessagingConfig.ROUTING_KEY, orderStatus);
         return "Success !!";
     }
+
 }
